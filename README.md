@@ -42,29 +42,14 @@ Key performance (test set):
 | Accuracy | 0.9649 |
 
 ---
+## Quick Start (Inference Demo)
 
-## Inference Demo
+This repo includes a small inference script that loads the trained model and predicts diagnosis for new samples.
 
-The trained model is saved as:
-artifacts/model.joblib
-
-
-Run prediction:
-
-
+### Run locally
+```bash
 pip install -r requirements.txt
 python src/predict.py
-
-
-Input:
-
-sample_input.csv
-
-
-Output:
-
-predictions.csv
-
 
 ---
 ## Repository Structure
@@ -97,4 +82,5 @@ Breast-Cancer-Diagnosis-ML/
 
 ## Author
 Krishna Joshi  
+
 Machine Learning — Healthcare Analytics
