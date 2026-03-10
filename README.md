@@ -64,6 +64,8 @@ Based on Recall and overall balance, **Random Forest** was selected as the final
 
 ![ROC Curve](assets/roc_curve.png)
 
+The ROC curve shows the model's strong ability to separate malignant and benign tumors.
+
 ---
 
 ## Inference Demo (How to Use This Project)
@@ -75,6 +77,7 @@ artifacts/model.joblib
 
 Sample input file:
 sample_input.csv
+
 
 ### Run Inference Locally
 
@@ -139,5 +142,6 @@ Breast-Cancer-Diagnosis-ML/
 
 Krishna Joshi  
 Machine Learning — Healthcare Analytics
+
 
 
