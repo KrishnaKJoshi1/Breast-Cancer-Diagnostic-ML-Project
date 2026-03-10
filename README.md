@@ -78,11 +78,12 @@ sample_input.csv
 
 ### Run Inference Locally
 
-From the project root folder, run:
+From the project root folder run
 
-pip install -r requirements.txt  
+```bash
+pip install -r requirements.txt
 python src/predict.py sample_input.csv
-
+```
 This will generate:
 
 predictions.csv  
@@ -138,4 +139,5 @@ Breast-Cancer-Diagnosis-ML/
 
 Krishna Joshi  
 Machine Learning — Healthcare Analytics
+
 
