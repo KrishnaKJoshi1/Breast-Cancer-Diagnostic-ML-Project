@@ -14,8 +14,16 @@ This project demonstrates a complete end-to-end machine learning workflow — fr
 
 ## Dataset
 
-Wisconsin Breast Cancer Diagnostic Dataset  
-Public dataset containing structured numeric diagnostic features derived from digitized tumor images.
+This project uses the Wisconsin Breast Cancer Diagnostic Dataset.
+
+The dataset contains numerical features extracted from digitized images of breast mass cell nuclei.
+
+Source:
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)
+
+The dataset used in this project is included in this repository:
+
+data/breast_cancer.csv
 
 ---
 
@@ -52,6 +60,12 @@ Based on Recall and overall balance, **Random Forest** was selected as the final
 
 ---
 
+## ROC Curve
+
+![ROC Curve](assets/roc_curve.png)
+
+---
+
 ## Inference Demo (How to Use This Project)
 
 After training and evaluation, the final model was saved and packaged with a simple prediction script.
@@ -67,7 +81,7 @@ sample_input.csv
 From the project root folder, run:
 
 pip install -r requirements.txt  
-python src/predict.py  
+python src/predict.py sample_input.csv
 
 This will generate:
 
@@ -124,3 +138,4 @@ Breast-Cancer-Diagnosis-ML/
 
 Krishna Joshi  
 Machine Learning — Healthcare Analytics
+
