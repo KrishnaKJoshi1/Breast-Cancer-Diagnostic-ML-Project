@@ -43,9 +43,8 @@ data/breast_cancer.csv
    - ROC Curve  
    - Precision–Recall Curve  
 8. Feature Importance analysis  
-9. 5-fold cross-validation  
-10. Final model packaging for inference  
-
+9.  Final model packaging for inference  
+ 
 ---
 
 ## Model Performance (Test Set)
@@ -142,6 +141,7 @@ Breast-Cancer-Diagnosis-ML/
 
 Krishna Joshi  
 Machine Learning — Healthcare Analytics
+
 
 
 
