@@ -92,11 +92,11 @@ sample_input.csv
 
 ### Run Prediction Locally
 
-Open a terminal in the project root folder and run:
 
 ```bash
 pip install -r requirements.txt
 python src/predict.py sample_input.csv
+...
 
 ---
 
