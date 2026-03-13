@@ -99,7 +99,7 @@ python src/predict.py sample_input.csv
 
 ---
 
-Output
+### Output
 
 The script generates:
 
@@ -113,6 +113,7 @@ predicted class label (Malignant / Benign)
 
 Example Terminal Output
 
+-----
 
 ![Inference Demo](assets/inference_demo.png)
 
