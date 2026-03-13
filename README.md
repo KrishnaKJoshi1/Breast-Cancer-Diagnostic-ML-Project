@@ -90,15 +90,15 @@ Sample input file:
 
 sample_input.csv
 
+
 ### Run Prediction Locally
 
+Open a terminal in the project root folder and run:
 
 ```bash
 pip install -r requirements.txt
 python src/predict.py sample_input.csv
-***
-
----
+```
 
 ### Output
 
@@ -111,16 +111,15 @@ The output file contains:
 - malignant probability
 - predicted class label (Malignant / Benign)
 
----
+### Example Terminal Output
 
 ![Inference Demo](assets/inference_demo.png)
-
 
 ---
 
 ## Repository Structure
 
-
+```text
 Breast-Cancer-Diagnosis-ML/
 │
 ├── assets/
@@ -145,8 +144,9 @@ Breast-Cancer-Diagnosis-ML/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
-----
+---
 
 ## Skills Demonstrated
 
@@ -159,5 +159,9 @@ Breast-Cancer-Diagnosis-ML/
 ---
 
 ## Author
+
 Krishna Joshi  
-Machine Learning — Healthcare Analytics
+Machine Learning | Healthcare AI | Predictive Analytics
+
+
+
