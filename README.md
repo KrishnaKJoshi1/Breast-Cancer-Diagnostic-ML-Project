@@ -89,8 +89,6 @@ Sample input file:
 
 sample_input.csv
 
----
-
 ### Run Prediction Locally
 
 Open a terminal in the project root folder and run:
@@ -101,7 +99,7 @@ python src/predict.py sample_input.csv
 
 ---
 
-##  Output
+## Output
 
 The script generates:
 
@@ -118,6 +116,7 @@ Example Terminal Output
 ---
 
 ![Inference Demo](assets/inference_demo.png)
+
 
 ---
 
@@ -164,7 +163,3 @@ Breast-Cancer-Diagnosis-ML/
 ## Author
 Krishna Joshi  
 Machine Learning — Healthcare Analytics
-
-
-
-
