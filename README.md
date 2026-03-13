@@ -1,5 +1,6 @@
 # Breast Cancer Diagnosis — Machine Learning Project
 
+
 ![Banner](assets/github_banner_colored.png)
 
 ## Overview
@@ -99,19 +100,16 @@ python src/predict.py sample_input.csv
 
 ---
 
-## Output
+### Output
 
 The script generates:
 
-predictions.csv
+`predictions.csv`
 
-The output file includes:
+The output file contains:
 
-malignant probability
-
-predicted class label (Malignant / Benign)
-
-Example Terminal Output
+- malignant probability
+- predicted class label (Malignant / Benign)
 
 ---
 
